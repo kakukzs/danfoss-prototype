@@ -14,8 +14,7 @@ $(function() {
 				};
 				$el.data('bgimg', data);
 			}
-			//console.log(rect.top);
-			$(el).css('background-position-x', -$(window).scrollTop());
+			$(el).css('background-position-x', -$(window).scrollTop() / 2);
 		});
 	}).trigger('scroll');
 });

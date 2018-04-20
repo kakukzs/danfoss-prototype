@@ -60,9 +60,15 @@
 
 .bg-building {
     background-image: url("../assets/test_bg.jpg");
-	background-size: cover;
-	background-position: top right;
+	background-position: center left;
 	background-repeat: no-repeat;
+}
+
+.bg-careers {
+	background-image: url("../assets/Careers_image.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .text-black {
