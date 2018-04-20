@@ -148,8 +148,16 @@
 		margin: 40px 0;
 	}
 
+	h2 {
+		margin: 20px 0;
+	}
+
 	h1 + p {
 		margin: 40px 0;
+	}
+
+	h2 + p {
+		margin: 20px 0;
 	}
 
 	h1 + p + button {
@@ -158,11 +166,13 @@
 }
 
 @media (max-width: 1300px) {
-	h1 {
+	h1,
+	h2 {
 		margin: .5rem 0;
 	}
 
-	h1 + p {
+	h1 + p,
+	h2 + p {
 		margin: .5rem 0;
 	}
 
@@ -187,7 +197,7 @@
 
 .stick-to-top {
 	position: sticky;
-	top: 110px;
+	top: 80px;
 	z-index: 9;
 }
 
