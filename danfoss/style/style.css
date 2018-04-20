@@ -186,6 +186,12 @@
 	position: relative;
 }
 
+.city-bg {
+	background-image: linear-gradient(to bottom, rgba(170,0,0,0.8) 0%,rgba(170,0,0,0.8) 100%), url("../assets/city-bg.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
 .video-content {
 	left: 50%;
 	object-fit: cover;
