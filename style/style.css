@@ -43,6 +43,7 @@
 }
 .homepage .display-3 {
     white-space: pre-line;
+    line-height: 4rem;
 }
 
 .bg-building {
