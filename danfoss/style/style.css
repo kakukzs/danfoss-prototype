@@ -132,3 +132,11 @@
     background-color: #b80000;
     color: #fff;
 }
+
+/********************************/
+/** HOMEPAGE                   **/
+/********************************/
+.video-content {
+	object-fit: cover;
+	z-index: -1;
+}
