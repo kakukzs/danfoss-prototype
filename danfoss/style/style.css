@@ -17,6 +17,18 @@
 /********************************/
 /** MODIFIERS                  **/
 /********************************/
+.flex-8 {
+    flex: 8;
+}
+.flex-7 {
+    flex: 7;
+}
+.flex-6 {
+    flex: 6;
+}
+.flex-5 {
+    flex: 5;
+}
 .flex-4 {
     flex: 4;
 }
@@ -36,7 +48,7 @@
     border-radius: 0;
 }
 .products .card-body {
-    max-width: 250px;
+    max-width: 225px;
 }
 .homepage .flex-md-row .page {
     min-height: 75vh;
