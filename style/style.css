@@ -1,0 +1,121 @@
+/********************************/
+/** TOP HEADER                 **/
+/********************************/
+.site-header {
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.3rem rgba(0,0,0,0.2);
+}
+
+.menu-row a:hover {
+    color: #b80000;
+}
+
+.menu-row a.dropdown-toggle[aria-expanded="true"] {
+    color: #b80000;
+    text-decoration: underline;
+}
+
+/********************************/
+/** MODIFIERS                  **/
+/********************************/
+.flex-4 {
+    flex: 4;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-1 {
+    flex: 1;
+}
+.homepage {
+    padding-top: 50px;
+}
+.products {
+    padding-top: 50px;
+}
+.products .card-img-top {
+    border-radius: 0;
+}
+.products .card-body {
+    max-width: 250px;
+}
+.homepage .flex-md-row .page {
+    min-height: 75vh;
+}
+.homepage .display-3 {
+    white-space: pre-line;
+}
+
+.bg-building {
+    background-image: url("../assets/test_bg.jpg");
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+.text-black {
+    color: #000;
+}
+.text-denim {
+    color: #303844;
+}
+
+.input-group {
+    min-width: 300px;
+}
+/********************************/
+/** DROPDOWN                   **/
+/********************************/
+.dropdown-toggle::after {
+    display:none
+}
+.dropdown.show {
+    position: inherit;
+}
+
+.dropdown-menu.show {
+    width: 100%;
+    background-color: #efefef;
+    box-shadow: 0.1rem 0.4rem 0.5rem 0.1rem rgba(0,0,0,0.2);
+}
+
+.border-radius-0 {
+    border-radius: 0;
+}
+.dropdown-menu.show .btn.bg-white:hover {
+    color: #fff;
+    /* Hate myself for this important */
+    background-color: #343a40 !important;
+    border-color: #343a40;
+}
+
+.filter button {
+    position: relative;
+}
+
+.oi.float-right {
+    position: absolute;
+    right: 0.4rem;
+    top: 0.55rem;
+    font-weight: 100;
+    font-size: 0.6rem;
+}
+
+/********************************/
+/** COLORS                     **/
+/********************************/
+.text-d-red {
+    color: #b80000;
+}
+
+.bg-d-red {
+    background-color: #b80000;
+}
+
+.bg-d-grey {
+    background-color: #efefef;
+}
+
+.btn-red {
+    background-color: #b80000;
+    color: #fff;
+}
