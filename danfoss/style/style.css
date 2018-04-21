@@ -75,6 +75,9 @@
 	background-position: center left;
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 90vh;
+	position: sticky;
+	top: 100px;
 }
 
 .text-black {
@@ -209,11 +212,16 @@
 
 .stick-to-top {
 	position: sticky;
-	top: 80px;
+	top: 90px;
 	z-index: 9;
 }
 
 .insight-heading {
 	box-shadow: 0 0 20px 10px #f8f9fa;
+	margin-bottom: 55px;
+}
+
+.careers-heading {
+	box-shadow: 0 0 20px 10px #efefef;
 	margin-bottom: 55px;
 }
