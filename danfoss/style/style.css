@@ -172,7 +172,7 @@
 .border-radius-0 {
     border-radius: 0;
 }
-.dropdown-menu.show .btn.bg-white:hover {
+.btn.bg-white:hover {
     color: #fff;
     /* Hate myself for this important */
     background-color: #343a40 !important;
@@ -215,7 +215,7 @@
 /** PRDOCUTS                   **/
 /********************************/
 .products {
-    padding-top: 50px;
+    padding-top: 220px;
 }
 .products .card-img-top {
     border-radius: 0;
