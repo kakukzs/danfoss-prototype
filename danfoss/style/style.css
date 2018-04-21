@@ -61,8 +61,7 @@
 }
 
 .btn-store {
-    position: absolute;
-    right: 0;
+    float: right;
     bottom: .5rem;
 }
 
@@ -120,6 +119,15 @@
 .vh-95 {
 	height: calc(95vh - 100px);
 	overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    top: 280px;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.6);
+    height: calc(100% - 100px);
 }
 
 /********************************/
