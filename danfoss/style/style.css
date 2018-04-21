@@ -217,19 +217,19 @@
 .products {
     padding-top: 220px;
 }
-.products .card-img-top {
+.products .card-img-top, .products-ac .card-img-top {
     border-radius: 0;
     width: auto;
     height: auto;
 }
 
-.products .card {
+.products .card, .products-ac .card {
     flex: 1 0 20%;
 }
-.products .card .card-body {
+.products .card .card-body, .products-ac .card .card-body {
     padding: 0.5rem 1.5rem 2rem 0rem;
 }
-.products .card:not(:nth-child(4n)) {
+.products .card:not(:nth-child(4n)), .products-ac .card:not(:nth-child(4n)) {
     margin-right: 1rem;
 }
 
