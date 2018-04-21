@@ -103,6 +103,20 @@ body {
 	top: 100px;
 }
 
+.bg-news {
+	background-image: url("../assets/danfoss_chambersburg.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	position: sticky;
+	top: 100px;
+}
+
+.news .oi {
+	font-size: 1.5rem;
+}
+
 .text-black {
     color: #000;
 }
@@ -229,6 +243,10 @@ body {
 
 .bg-d-grey {
     background-color: #efefef;
+}
+
+.bg-d-anchor {
+	background-color: #303843;
 }
 
 .btn-red {

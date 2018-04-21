@@ -1,7 +1,7 @@
 $(function() {
 	var parallax;
 	$(document).on('scroll', function() {
-		parallax = parallax || $('.bg-building,.bg-careers');
+		parallax = parallax || $('.bg-building,.bg-careers,.bg-news');
 		parallax.each(function(idx, el) {
 			var $el = $(el);
 			$el.css('background-position-x',
