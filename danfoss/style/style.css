@@ -32,6 +32,9 @@
 .flex-4 {
     flex: 4;
 }
+.flex-3 {
+    flex: 3;
+}
 .flex-2 {
     flex: 2;
 }
@@ -62,6 +65,9 @@
     background-image: url("../assets/test_bg.jpg");
 	background-position: center left;
 	background-repeat: no-repeat;
+	height: 90vh;
+	position: sticky;
+	top: 100px;
 }
 
 .bg-careers {
