@@ -233,6 +233,16 @@
     margin-right: 1rem;
 }
 
+.products-ac {
+    padding-top: 50px;  
+}
+
+.products-ac > .page {
+    position: sticky;
+    top: 60px;
+    z-index: 10;
+}
+
 /********************************/
 /** HOMEPAGE                   **/
 /********************************/
