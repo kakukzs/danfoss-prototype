@@ -15,7 +15,7 @@
 }
 
 /********************************/
-/** MODIFIERS                  **/
+/** FLEX DEFS                  **/
 /********************************/
 .flex-8 {
     flex: 8;
@@ -41,9 +41,21 @@
 .flex-1 {
     flex: 1;
 }
+
+/********************************/
+/** MODIFIERS                  **/
+/********************************/
 .homepage {
     padding-top: 50px;
 }
+.product .card-img-top {
+    border-radius: 0;
+}
+
+.product .card {
+    border-radius: 0;
+}
+
 .products {
     padding-top: 50px;
 }
@@ -87,6 +99,43 @@
 .input-group {
     min-width: 300px;
 }
+
+.d-underline:after {
+    margin-top: 15px;
+    content: "";
+    width: 30%;
+    height: 3px;
+    display: block;
+    background-color: #b80000;
+}
+.oi.align-center {
+    display: block;
+    text-align: center;
+}
+
+/********************************/
+/** TABLE                      **/
+/********************************/
+.table.borderless thead tr th {
+    position: relative;
+    border-top: none;
+    border-bottom: none;
+}
+.table.borderless tbody tr td {
+    border-top: none;
+    padding: 1.5rem .75rem;
+}
+.table.borderless thead tr th:not(:last-child):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 25px;
+    width: 1px;
+    margin-right: 2px;
+    display: inline-block;
+    background-color:#dee2e6;
+}
+
 /********************************/
 /** DROPDOWN                   **/
 /********************************/
