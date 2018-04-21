@@ -126,8 +126,8 @@ body {
     text-align: center;
 }
 
-.vh-95 {
-	height: calc(80vh - 100px);
+.vh-head {
+	height: calc(87vh - 100px);
 	overflow: hidden;
 }
 
@@ -338,22 +338,24 @@ body {
 }
 
 .stick-to-top {
+	padding-top: 2rem;
 	position: sticky;
-	top: 90px;
+	top: 107px;
 	z-index: 9;
 }
 
 .insight-heading {
 	box-shadow: 0 0 20px 10px #f8f9fa;
-	margin-bottom: 55px;
+	margin-bottom: 2.2rem;
 }
 
 .careers-heading {
 	box-shadow: 0 0 20px 10px #efefef;
-	margin-bottom: 55px;
+	margin-bottom: 2.2rem;
 }
 
 .insight-heading + p,
 .careers-heading + p {
-	margin-top: -3rem;
+	margin-bottom: 3rem;
+	margin-top: -1.75rem;
 }
