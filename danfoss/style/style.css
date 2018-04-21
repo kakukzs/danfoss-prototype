@@ -117,9 +117,25 @@
 }
 
 .vh-95 {
-	height: calc(95vh - 100px);
+	height: calc(80vh - 100px);
 	overflow: hidden;
 }
+
+.limit-2-lines {
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2; /* number of lines to show */
+ }
+
+ .limit-3-lines {
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3; /* number of lines to show */
+ }
 
 .overlay {
     position: fixed;
@@ -234,7 +250,7 @@
 }
 
 .products-ac {
-    padding-top: 50px;  
+    padding-top: 50px;
 }
 
 .products-ac > .page {
@@ -249,23 +265,23 @@
 
 @media (min-height: 790px) {
 	h1 {
-		margin: 40px 0;
+		margin: 1.5rem 0;
 	}
 
 	h2 {
-		margin: 20px 0;
+		margin: .75rem 0;
 	}
 
 	h1 + p {
-		margin: 40px 0;
+		margin: 1.5rem 0;
 	}
 
 	h2 + p {
-		margin: 20px 0;
+		margin: .75rem 0;
 	}
 
 	h1 + p + button {
-		margin: 40px 0;
+		margin: 1rem 0;
 	}
 }
 
@@ -319,4 +335,9 @@
 .careers-heading {
 	box-shadow: 0 0 20px 10px #efefef;
 	margin-bottom: 55px;
+}
+
+.insight-heading + p,
+.careers-heading + p {
+	margin-top: -3rem;
 }
