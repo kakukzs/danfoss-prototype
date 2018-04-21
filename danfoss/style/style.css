@@ -56,15 +56,10 @@
     border-radius: 0;
 }
 
-.products {
+.product {
     padding-top: 50px;
 }
-.products .card-img-top {
-    border-radius: 0;
-}
-.products .card-body {
-    max-width: 225px;
-}
+
 .homepage .flex-md-row .page {
     min-height: 75vh;
 }
@@ -200,6 +195,28 @@
 .btn-red {
     background-color: #b80000;
     color: #fff;
+}
+
+/********************************/
+/** PRDOCUTS                   **/
+/********************************/
+.products {
+    padding-top: 50px;
+}
+.products .card-img-top {
+    border-radius: 0;
+    width: auto;
+    height: auto;
+}
+
+.products .card {
+    flex: 1 0 20%;
+}
+.products .card .card-body {
+    padding: 0.5rem 0rem 2rem 0rem;
+}
+.products .card:not(:nth-child(4n)) {
+    margin-right: 1rem;
 }
 
 /********************************/
