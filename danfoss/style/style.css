@@ -190,6 +190,18 @@ body {
     background-color:#dee2e6;
 }
 
+.service .card-img-left {
+	width: 85px;
+    height: 85px;
+}
+.underline {
+	text-decoration: underline;
+}
+
+.service .flex-2 p{
+	line-height: 1.25rem;
+}
+
 /********************************/
 /** DROPDOWN                   **/
 /********************************/
@@ -266,7 +278,7 @@ body {
     height: auto;
 }
 
-.products .card, .products-ac .card {
+.products .card, .products-ac .card, .service .card {
     flex: 1 0 20%;
 }
 .products .card .card-body, .products-ac .card .card-body {
@@ -375,7 +387,7 @@ body {
 }
 
 
-.insight-heading {
+.insight-heading, .news-heading {
 	box-shadow: 0 0 20px 10px #f8f9fa;
 	margin-bottom: 2.2rem;
 }
@@ -386,7 +398,8 @@ body {
 }
 
 .insight-heading + p,
-.careers-heading + p {
+.careers-heading + p,
+.news-heading + p {
 	margin-bottom: 3rem;
 	margin-top: -1.75rem;
 }
