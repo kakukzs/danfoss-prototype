@@ -4,8 +4,18 @@
 	src: local('ProximaNovaRegular'), url('./fonts/ProximaNovaRegular.woff') format('woff'), url('./font/ProximaNovaRegular.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'ProximaNovaBold';
+	src: url('./fonts/ProximaNovaBold.eot');
+	src: local('ProximaNovaBold'), url('./fonts/ProximaNovaBold.woff') format('woff'), url('./font/ProximaNovaBold.ttf') format('truetype');
+}
+
 body {
 	font-family: ProximaNovaRegular;
+}
+
+.bold {
+	font-family: ProximaNovaBold;
 }
 
 /********************************/
