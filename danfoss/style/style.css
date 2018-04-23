@@ -261,9 +261,17 @@ body {
 	background-color: #303843;
 }
 
+.bg-light-anchor {
+	background-color: #444d56;
+}
+
 .btn-red {
     background-color: #b80000;
     color: #fff;
+}
+
+.bg-harbor-gray {
+	background-color: #d8d8da;
 }
 
 /********************************/
