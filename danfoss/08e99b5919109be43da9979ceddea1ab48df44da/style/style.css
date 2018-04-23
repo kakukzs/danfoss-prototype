@@ -1,0 +1,477 @@
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	src: url('./fonts/ProximaNovaRegular.eot');
+	src: local('ProximaNovaRegular'), url('./fonts/ProximaNovaRegular.woff') format('woff'), url('./font/ProximaNovaRegular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'ProximaNovaBold';
+	src: url('./fonts/ProximaNovaBold.eot');
+	src: local('ProximaNovaBold'), url('./fonts/ProximaNovaBold.woff') format('woff'), url('./font/ProximaNovaBold.ttf') format('truetype');
+}
+
+body {
+	font-family: ProximaNovaRegular;
+}
+
+.bold {
+	font-family: ProximaNovaBold;
+}
+
+/********************************/
+/** TOP HEADER                 **/
+/********************************/
+.site-header {
+	box-shadow: 0 1px 4px rgba(0,0,0,.25)
+}
+
+.main-menu {
+	padding: 3px 0px;
+}
+
+.logo-title p:first-of-type {
+    line-height: 6px;
+}
+.logo-title p:last-of-type {
+	letter-spacing: 1.1px;
+}
+
+.menu-row {
+	font-size: 16px;
+	padding: 2px 0px 3px 0;
+}
+.menu-row a:hover {
+    color: #b80000;
+}
+
+.menu-row a.dropdown-toggle[aria-expanded="true"] {
+    color: #b80000;
+    text-decoration: underline;
+}
+
+.grid-menu {
+	padding-left: 35px;
+    margin-left: 30px;
+}
+
+/********************************/
+/** FLEX DEFS                  **/
+/********************************/
+.flex-8 {
+    flex: 8;
+}
+.flex-7 {
+    flex: 7;
+}
+.flex-6 {
+    flex: 6;
+}
+.flex-5 {
+    flex: 5;
+}
+.flex-4 {
+    flex: 4;
+}
+.flex-3 {
+    flex: 3;
+}
+.flex-2 {
+    flex: 2;
+}
+.flex-1 {
+    flex: 1;
+}
+
+/********************************/
+/** MODIFIERS                  **/
+/********************************/
+
+.homepage {
+    padding-top: 50px;
+}
+.product .card-img-top {
+    border-radius: 0;
+}
+
+.product .card {
+    border-radius: 0;
+}
+
+.product {
+    padding-top: 50px;
+}
+
+.btn-store {
+    float: right;
+	bottom: 1rem;
+	position: relative;
+}
+
+.homepage .flex-md-row .page {
+    min-height: 75vh;
+}
+.homepage .display-3 {
+    white-space: pre-line;
+    line-height: 4rem;
+}
+
+.bg-building {
+    background-image: url("../assets/test_bg.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	height: 90vh;
+	position: sticky;
+	top: 100px;
+}
+
+.bg-careers {
+	background-image: url("../assets/Careers_image.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	position: sticky;
+	top: 100px;
+}
+
+.bg-news {
+	background-image: url("../assets/danfoss_chambersburg.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	position: sticky;
+	top: 100px;
+}
+
+.news .oi {
+	font-size: 1.5rem;
+}
+
+.text-black {
+    color: #000;
+}
+.text-denim {
+    color: #303844;
+}
+
+.input-group {
+    min-width: 300px;
+}
+
+.oi.align-center {
+    display: block;
+    text-align: center;
+}
+
+.vh-head {
+	height: calc(87vh - 100px);
+	overflow: hidden;
+	min-height: 490px;
+}
+
+.limit-2-lines {
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2; /* number of lines to show */
+ }
+
+ .limit-3-lines {
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3; /* number of lines to show */
+ }
+
+.overlay {
+    position: fixed;
+    top: 291px;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.6);
+    height: calc(100% - 100px);
+}
+
+#inlineFormInputGroup {
+	line-height: 48px;
+    height: 48px;
+}
+.fs-72 {
+	font-size: 72px;
+}
+.fs-40 {
+	font-size: 40px;
+}
+.fs-20 {
+	font-size: 20px;
+}
+.fs-18 {
+	font-size: 18px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+	font-size: 12px;
+}
+
+a.text-denim {
+	color: #303844;
+}
+a.text-denim:hover {
+	color: #b80000;
+	text-decoration: none;
+}
+
+/********************************/
+/** TABLE                      **/
+/********************************/
+.table.borderless thead tr th {
+    position: relative;
+    border-top: none;
+    border-bottom: none;
+}
+.table.borderless tbody tr td {
+    border-top: none;
+    padding: 1.5rem .75rem;
+}
+.table.borderless thead tr th:not(:last-child):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 25px;
+    width: 1px;
+    margin-right: 2px;
+    display: inline-block;
+    background-color:#dee2e6;
+}
+
+.service .card-img-left {
+	width: 85px;
+    height: 85px;
+}
+.underline {
+	text-decoration: underline;
+}
+
+.service .flex-2 p{
+	line-height: 1.25rem;
+}
+
+/********************************/
+/** DROPDOWN                   **/
+/********************************/
+.dropdown-toggle::after {
+    display:none
+}
+.dropdown.show {
+    position: inherit;
+}
+
+.dropdown-menu.show {
+    width: 100%;
+    background-color: #efefef;
+    box-shadow: 0.1rem 0.4rem 0.5rem 0.1rem rgba(0,0,0,0.2);
+}
+
+.border-radius-0 {
+    border-radius: 0;
+}
+
+.btn.bg-white:hover,
+.products-navbar .btn.bg-white:first-child {
+    color: #fff;
+    /* Hate myself for this important */
+    background-color: #343a40 !important;
+    border-color: #343a40;
+}
+
+.filter button {
+    position: relative;
+}
+
+.oi.float-right {
+    position: absolute;
+    right: 0.4rem;
+    top: 0.55rem;
+    font-weight: 100;
+    font-size: 0.6rem;
+}
+
+/********************************/
+/** COLORS                     **/
+/********************************/
+.text-d-red {
+    color: #b80000;
+}
+
+.bg-d-red {
+    background-color: #b80000;
+}
+
+.bg-light-red {
+	background-color: #e2000f;
+}
+
+.bg-d-grey {
+    background-color: #efefef;
+}
+
+.bg-d-anchor {
+	background-color: #303843;
+}
+
+.bg-light-anchor {
+	background-color: #444d56;
+}
+
+.btn-red {
+    background-color: #b80000;
+    color: #fff;
+}
+
+.bg-harbor-gray {
+	background-color: #d8d8da;
+}
+
+/********************************/
+/** PRDOCUTS                   **/
+/********************************/
+.products {
+    padding-top: 240px;
+}
+.products .card-img-top, .products-ac .card-img-top {
+    border-radius: 0;
+    width: auto;
+    height: auto;
+}
+
+.products .card, .products-ac .card, .service .card {
+    flex: 1 0 20%;
+}
+.products .card .card-body, .products-ac .card .card-body {
+    padding: 0.5rem 1.5rem 2rem 0rem;
+}
+.products .card:not(:nth-child(4n)), .products-ac .card:not(:nth-child(4n)) {
+    margin-right: 1rem;
+}
+
+.products-ac {
+    padding-top: 50px;
+}
+
+.products-ac > .page,
+.product > .nav-row {
+    position: sticky;
+    top: 80px;
+    z-index: 10;
+}
+
+/********************************/
+/** HOMEPAGE                   **/
+/********************************/
+
+@media (min-height: 790px) {
+	h1 {
+		margin: 1.5rem 0;
+	}
+
+	h2 {
+		margin: .75rem 0;
+	}
+
+	h1 + p {
+		margin: 1.5rem 0;
+	}
+
+	h2 + p {
+		margin: .75rem 0;
+	}
+
+	h1 + p + button {
+		margin: 1rem 0;
+	}
+}
+
+@media (min-height: 790px) and (min-width: 1200px) {
+	h1 + p {
+		font-size: 25px !important;
+	}
+}
+
+@media (max-width: 1300px) {
+	h1,
+	h2 {
+		margin: .5rem 0;
+	}
+
+	h1 + p,
+	h2 + p {
+		margin: .5rem 0;
+	}
+
+	h1 + p + button {
+		margin: .5rem 0;
+	}
+}
+
+.video-container {
+	overflow: hidden;
+	position: relative;
+}
+
+.city-bg {
+	background-image: linear-gradient(to bottom, rgba(170,0,0,0.7) 0%,rgba(170,0,0,0.7) 100%);
+	background-position: center center;
+	background-size: cover;
+}
+
+.video-content {
+	left: 50%;
+	min-height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.stick-to-top {
+	padding-top: 2rem;
+	position: sticky;
+	top: 107px;
+	z-index: 9;
+}
+
+.product-sticky {
+	top: 180px;
+}
+
+.sticky-blur-bg {
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.66) 27%,rgba(255,255,255,1) 80%,rgba(255,255,255,1) 100%);
+	bottom: 0;
+	height: 75px;
+	position: sticky;
+	width: 100%;
+}
+
+
+.insight-heading, .news-heading {
+	box-shadow: 0 0 20px 10px #f8f9fa;
+	margin-bottom: 2.2rem;
+}
+
+.careers-heading {
+	box-shadow: 0 0 20px 10px #efefef;
+	margin-bottom: 2.2rem;
+}
+
+.insight-heading + p,
+.careers-heading + p,
+.news-heading + p {
+	margin-bottom: 3rem;
+	margin-top: -1.75rem;
+}
