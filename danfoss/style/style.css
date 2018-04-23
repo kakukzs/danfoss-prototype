@@ -171,6 +171,14 @@ body {
 	font-size: 12px;
 }
 
+a.text-denim {
+	color: #303844;
+}
+a.text-denim:hover {
+	color: #b80000;
+	text-decoration: none;
+}
+
 /********************************/
 /** TABLE                      **/
 /********************************/
