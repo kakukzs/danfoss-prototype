@@ -37,7 +37,7 @@ body {
 }
 
 .menu-row {
-	font-size: 18px;
+	font-size: 16px;
 	padding: 2px 0px 3px 0;
 }
 .menu-row a:hover {
@@ -188,7 +188,7 @@ body {
 
 .overlay {
     position: fixed;
-    top: 280px;
+    top: 291px;
     left: 0;
     width: 100%;
     background: rgba(255,255,255,0.6);
@@ -204,6 +204,9 @@ body {
 }
 .fs-40 {
 	font-size: 40px;
+}
+.fs-20 {
+	font-size: 20px;
 }
 .fs-18 {
 	font-size: 18px;
