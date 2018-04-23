@@ -167,6 +167,7 @@ body {
 .vh-head {
 	height: calc(87vh - 100px);
 	overflow: hidden;
+	min-height: 490px;
 }
 
 .limit-2-lines {
