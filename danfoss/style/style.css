@@ -336,7 +336,7 @@ a.text-denim:hover {
 /** PRDOCUTS                   **/
 /********************************/
 .products {
-    padding-top: 225px;
+    padding-top: 240px;
 }
 .products .card-img-top, .products-ac .card-img-top {
     border-radius: 0;
@@ -361,7 +361,7 @@ a.text-denim:hover {
 .products-ac > .page,
 .product > .nav-row {
     position: sticky;
-    top: 60px;
+    top: 80px;
     z-index: 10;
 }
 
