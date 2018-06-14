@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>UK BMI</title>
+      <link rel="stylesheet" href="../../style/main.css">
+      <script src="../../script.js"></script>
+    </head>
+  <body>
+      <nav class="header__top-nav navbar navbar-light navbar-expand-md  justify-content-end">
+        <ul class="navbar-nav pr-2">
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Contact us</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Civil engineering</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">Certified contractor portal</a></li>
+          <li class="nav-item"><a class="nav-link text-dark" href="#">About BMI group</a></li>
+        </ul>
+      </nav>
+      <div data-class="StickyComponent" data-settings="'dom':'header#menu','threshold': 0"></div>
+      <header class="header sticky sticky--compact " id="menu">
+        <nav class="navbar navbar-expand-md px-2"><a class="header__brand navbar-brand ml-2" href="../../index.html">
+            <div class="header__logo"></div></a>
+          <button class="navbar-toggler collapsed" data-target="#navbarCollapse" data-toggle="collapse" type="button" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-toggle-icon icon icon-bars"></div>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarCollapse">
+            <div class="navbar-nav"></div>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item"><a class="nav-link" href="#"><span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link " href="../../uk/solution/landing.html">Solutions</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Home owners</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Professionals</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Downloads</a></li>
+            </ul>
+          </div>
+          <div class="navbar__tools"><span class="pr-2 cursor-pointer ">
+              <input class="d-none d-xl-inline-block navbar__input navbar__input--rounded border-0 pl-2" type="search" placeholder="Search BMI">
+              <div class="icon icon-search icon--2x d-inline pr-2 align-middle"></div></span>
+              <div class="dropdown navbar__language cursor-pointer d-inline-block" data-class="DropdownComponent"><span class="pr-3 dropdown-toggle-btn " id="languageMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="d-none d-xl-inline-block">UK</span>
+                  <div class="icon icon-globe icon--2x d-inline pl-2 align-middle"></div></span>
+                <div class="dropdown-menu navbar__menu" aria-labelledby="languageMenuButton"><a class="dropdown-item" href="../../index.html">Global EN</a><a class="dropdown-item" href="../../no/homepage.html">NO</a><a class="dropdown-item" href="../../uk/solution/landing.html">Solutions</a><a class="dropdown-item" href="../../uk/product/landing.html">Products</a></div>
+              </div>
+          </div>
+        </nav>
+      </header>
+    <section class="container-fluid position-relative mb-0 pt-0" data-class="CarouselComponent" data-settings="'dots':false, 'arrows': false, 'fade': true, 'autoplay': true">
+        <div class="row carousel__slide carousel__slide--large carousel__slide--bg32 text-white">
+          <div class="col-12">
+            <div class="row">
+              <div class="container">
+                <div class="col-6">
+                  <p class="pt-3">Home | Products | <strong>Pithced roofs</strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 center-abs-ver">
+                    <h2 class="text-uppercase text-line text-line--100 carousel__title" data-skip-reveal>Pitched roofs</h2>
+                    <p class="mb-2 mb-md-3 pb-1 pr-4 carousel__desc" data-skip-reveal><em></em></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="container position-relative lifted lifted--low">
+        <div class="filter d-flex align-items-center justify-content-between p-3 filter--absolute filter--shadow">
+          <div class="filter__items d-flex flex-row align-items-center">
+            <p class="d-inline mr-2">Filters</p>
+              <div class="dropdown cursor-pointer d-inline-block" data-class=""><span class="px-2 px-xxl-3 py-2 btn text-uppercase filter-button font-weight-bold font-futura filter-button--dark smallest mr-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Roof use</span>
+              </div>
+              <div class="dropdown cursor-pointer d-inline-block" data-class=""><span class="px-2 px-xxl-3 py-2 btn text-uppercase filter-button font-weight-bold font-futura filter-button--dark smallest mr-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Roof type</span>
+              </div>
+              <div class="dropdown cursor-pointer d-inline-block" data-class="DropdownComponent"><span class="px-2 px-xxl-3 py-2 btn text-uppercase filter-button font-weight-bold font-futura filter-button--dark smallest mr-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Material</span>
+                <div class="dropdown-menu filter__menu">
+                  <div class="form-group form-check dropdown-item filter__item">
+                    <input class="form-check-input filter__checkbox" type="checkbox">
+                    <label class="form-check-label">Clay</label>
+                    <div class="filter__checkmark"></div>
+                  </div>
+                  <div class="form-group form-check dropdown-item filter__item">
+                    <input class="form-check-input filter__checkbox" type="checkbox">
+                    <label class="form-check-label">Metal</label>
+                    <div class="filter__checkmark"></div>
+                  </div>
+                  <div class="form-group form-check dropdown-item filter__item">
+                    <input class="form-check-input filter__checkbox" type="checkbox">
+                    <label class="form-check-label">Concrete</label>
+                    <div class="filter__checkmark"></div>
+                  </div>
+                  <div class="form-group form-check dropdown-item filter__item">
+                    <input class="form-check-input filter__checkbox" type="checkbox">
+                    <label class="form-check-label">Bitumen</label>
+                    <div class="filter__checkmark"></div>
+                  </div>
+                  <div class="form-group form-check dropdown-item filter__item">
+                    <input class="form-check-input filter__checkbox" type="checkbox">
+                    <label class="form-check-label">Synthetic</label>
+                    <div class="filter__checkmark"></div>
+                  </div>
+                  <div class="row d-flex justify-content-between"><a class="font-weight-bold" tabindex="1">Close</a></div>
+                </div>
+              </div>
+              <div class="dropdown cursor-pointer d-inline-block" data-class=""><span class="px-2 px-xxl-3 py-2 btn text-uppercase filter-button font-weight-bold font-futura filter-button--dark smallest mr-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product type</span>
+              </div>
+              <div class="dropdown cursor-pointer d-inline-block" data-class=""><span class="px-2 px-xxl-3 py-2 btn text-uppercase filter-button font-weight-bold font-futura filter-button--dark smallest mr-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Colour</span>
+              </div>
+              <div class="dropdown cursor-pointer d-inline-block" data-class=""><span class="px-2 px-xxl-3 py-2 btn text-uppercase filter-button font-weight-bold font-futura filter-button--dark smallest mr-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brand</span>
+              </div>
+              <div class="dropdown cursor-pointer d-inline-block" data-class=""><span class="px-2 px-xxl-3 py-2 btn text-uppercase filter-button font-weight-bold font-futura filter-button--dark smallest mr-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More filter</span>
+              </div>
+          </div>
+          <div class="filter__reset">
+              <div class="dropdown cursor-pointer d-inline-block" data-class=""><span class="px-2 px-xxl-3 py-2 btn text-uppercase filter-button font-weight-bold font-futura btn-primary smallest mr-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reset</span>
+              </div>
+          </div>
+        </div>
+    </section>
+    <section class="jumbotron jumbotron-fluid pt-5">
+      <div class="container panel">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="text-uppercase text-line text-line--75">Explore all</h3>
+            <p class="mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias deleniti atque corrupti quos dolores et quas molestias.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="flyer position-relative mb-3 mb-md-0 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="../../uk/product/listing.html">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/rooftile.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Roof tile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p>
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="flyer position-relative mb-3 mb-md-0 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/components.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Components</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p>
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="flyer position-relative mb-3 mb-md-0 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/systems.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Systems</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p>
+                </section>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="text-uppercase text-line text-line--75">Project Type</h3>
+            <p class="mb-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias deleniti atque corrupti quos dolores et quas molestias.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+              <div class="flyer position-relative mb-3 mb-md-0 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="../../uk/product/listing.html">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/iStock-682432560_f.jpg">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Residental</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p>
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6">
+              <div class="flyer position-relative mb-3 mb-md-0 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/iStock-686733728.jpg">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Non-residental</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p>
+                </section>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="container panel">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <h2 class="text-uppercase text-line text-line--75">Pitched products</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile1.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Postal clay tile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile2.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Cathedral pantile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile3.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Rgent</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile4.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Heathland</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile4.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Grovebury</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile5.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Postal clay tile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile2.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Plain tile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile6.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Cathedral pantile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="../../uk/product/item.html">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile7.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Postal metal tile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile6.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Cathedral pantile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile1.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Postal clay tile</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="flyer position-relative mb-3 flyer--shadow flyer--rounded" data-reveal>
+                <section class="flyer__body"><a href="#">
+                    <div class="flyer__body__image-holder mb-2 mb-xxl-3 flyer__body__image-holder--src"><img class="flyer__body__image" src="../../img/tile5.png">
+                    </div>
+                      <div class=" text-uppercase d-inline mb-1 mb-xxl-2 px-2 px-xxl-3 d-flex align-items-center"><span class="button__icon icon bg-primary icon--square-36 mr-2 text-white icon-arrow-right"></span>
+                        <h6 class="d-inline" data-skip-reveal>Heathland</h6>
+                      </div></a>
+                  <p class="px-2 px-xxl-3 mb-2 mb-xxl-3"><small>Those who use our clay roof tile choose a building material with a long tradition that has a special charm, radiating warmth and security.</small></p><img class="img-fluid px-2 float-right mb-2 mb-xxl-3" src="../../img/redland.png">
+                </section>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <footer class="footer mt-0">
+        <div class="container">
+          <div class="row pt-md-4 pb-md-3">
+            <div class="col-12 col-md-6">
+              <div class="row">
+                <div class="col-12 col-md-6"><a href="../../uk/solution/landing.html">
+                    <h4 class="footer__group-link mb-2">Solutions</h4></a>
+                  <p class="mb-2 footer__link">Residential</p>
+                  <p class="mb-2 footer__link">Commercial</p>
+                </div>
+                <div class="col-12 col-md-6"><a href="#">
+                    <h4 class="footer__group-link mb-2">Home owners</h4></a>
+                  <p class="mb-2 footer__link">How-to's &amp; guides</p>
+                  <p class="mb-2 footer__link">Case studies</p>
+                  <p class="footer__link">Find professional</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6"><a href="../../uk/product/landing.html">
+                    <p class="footer__group-link mb-2">Products</p></a>
+                  <p class="mb-2 footer__link">Pitched roofs</p>
+                  <p class="mb-2 footer__link">Flat roofs</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3"><a href="#">
+                <h4 class="mb-2 footer__group-link">Professionals</h4></a>
+              <p class="mb-2 footer__link">Start a project</p>
+              <p class="mb-2 footer__link">Design a roofing system</p>
+              <p class="mb-2 footer__link">Where to buy</p>
+              <p class="mb-2 footer__link">Installation</p>
+              <p class="mb-2 footer__link">Aftercare &amp; maintance</p>
+            </div>
+            <div class="col-12 col-md-3"><a href="#">
+                <h4 class="mb-2 footer__group-link">Company</h4></a>
+              <p class="mb-2 footer__link">About BMI Group</p>
+              <p class="mb-2 footer__link">News</p>
+              <p class="mb-2 footer__link">Careers</p>
+              <p class="mb-2 footer__link">Press area</p>
+              <p class="mb-2 footer__link">Events</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="container-fluid footer__border">
+            <div class="container">
+              <div class="row py-3">
+                <div class="col-12 col-md-6">
+                  <h6 class="text-white font-weight-500 font-helvetica mb-2 mt-1">News letter sign up</h6>
+                    <div class="input-group">
+                      <input class="form-control input px-3 col-sm-4 footer__input" type="text" placeholder="Email address" aria-label="Search">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <h6 class="text-white font-weight-500 font-helvetica mb-2 mt-1">Find us on</h6>
+                  <div class="text-white">
+                    <div class="icon icon-social-facebook icon--2x d-inline pr-2 align-middle"></div>
+                    <div class="icon icon-social-twitter icon--2x d-inline pr-2 align-middle"></div>
+                    <div class="icon icon-social-youtube icon--2x d-inline pr-2 align-middle"></div>
+                    <div class="icon icon-social-instagram icon--2x d-inline pr-2 align-middle"></div>
+                    <div class="icon icon-social-linkedin icon--2x d-inline align-middle"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row py-2">
+              <div class="col-12 d-md-flex flex-row flex-nowrap align-items-center">
+                <div class="footer__logo mr-2"></div><a class="pb-1 pb-md-0 mr-1 mr-md-4 text-white d-block d-md-inline-block" href="#">Privacy policy</a><a class="pb-1 pb-md-0 mr-1 mr-md-4 text-white d-block d-md-inline-block" href="#">Terms of use</a><a class="pb-1 pb-md-0 mr-1 mr-md-4 text-white d-block d-md-inline-block" href="#">General information</a><a class="text-white" href="#">Sitemap</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  </body>
+</html>
